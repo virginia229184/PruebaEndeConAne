@@ -1,9 +1,10 @@
-package PruebaEndeConAne;
 
-import java.util.Scanner;
+package PruebaEndeConAne;
 
 public class principal {
 	public static void main(String[] args) {
+	String nombre = "virginia";
+	System.out.println(nombre);
 		String izena;
 		Scanner sc = new Scanner(System.in);
 		
@@ -11,3 +12,4 @@ public class principal {
 		izena = sc.nextLine();
 	}
 }
+
